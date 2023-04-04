@@ -409,9 +409,9 @@
   )
 
   (no_connect (at 194.945 129.54) (uuid c2b5cb19-c0fe-4a87-b483-0ef6a5a43c1a))
-  (no_connect (at 194.945 127) (uuid c2b5cb19-c0fe-4a87-b483-0ef6a5a43c1a))
-  (no_connect (at 142.24 130.81) (uuid c2b5cb19-c0fe-4a87-b483-0ef6a5a43c1a))
-  (no_connect (at 142.24 128.27) (uuid c2b5cb19-c0fe-4a87-b483-0ef6a5a43c1a))
+  (no_connect (at 194.945 127) (uuid c2b5cb19-c0fe-4a87-b483-0ef6a5a43c1b))
+  (no_connect (at 142.24 130.81) (uuid c2b5cb19-c0fe-4a87-b483-0ef6a5a43c1c))
+  (no_connect (at 142.24 128.27) (uuid c2b5cb19-c0fe-4a87-b483-0ef6a5a43c1d))
 
   (wire (pts (xy 143.51 107.315) (xy 192.405 107.315))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -507,7 +507,7 @@
     (uuid 75bd16b2-0277-4536-a692-5a43581ae4c0)
     (property "Reference" "J1" (id 0) (at 131.445 111.76 0))
     (property "Value" "022_battery_cells" (id 1) (at 131.445 114.3 0))
-    (property "Footprint" "" (id 2) (at 123.19 113.03 0)
+    (property "Footprint" "on_edge:on_edge_2x05_device" (id 2) (at 123.19 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 123.19 113.03 0)
@@ -530,7 +530,7 @@
     (property "Value" "022_battery_cells" (id 1) (at 214.63 128.9049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 213.995 111.76 0)
+    (property "Footprint" "on_edge:on_edge_2x05_host" (id 2) (at 213.995 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 213.995 111.76 0)
@@ -614,10 +614,10 @@
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/75bd16b2-0277-4536-a692-5a43581ae4c0"
-      (reference "J1") (unit 1) (value "022_battery_cells") (footprint "")
+      (reference "J1") (unit 1) (value "022_battery_cells") (footprint "on_edge:on_edge_2x05_device")
     )
     (path "/83850f46-fbc7-4737-a426-703cfefbdd02"
-      (reference "J2") (unit 1) (value "022_battery_cells") (footprint "")
+      (reference "J2") (unit 1) (value "022_battery_cells") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/b72b6f4a-7489-40f2-bb90-d75ae01aa368"
       (reference "LOGO1") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen")
