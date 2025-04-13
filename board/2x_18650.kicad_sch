@@ -1,0 +1,341 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1895faed-13c7-4877-930c-ef39a1d7419c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "b165:2Battery_Cell"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2Battery_Cell"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "b165:2_18650_cell_holder"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2Battery_Cell_0_1"
+				(polyline
+					(pts
+						(xy -11.43 -5.08) (xy -11.43 -6.35) (xy -12.7 -6.35) (xy -12.7 -8.89) (xy -11.43 -8.89) (xy -11.43 -10.16)
+						(xy 13.97 -10.16) (xy 13.97 -5.08) (xy -11.43 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 2.54) (xy -11.43 1.27) (xy -12.7 1.27) (xy -12.7 -1.27) (xy -11.43 -1.27) (xy -11.43 -2.54)
+						(xy 13.97 -2.54) (xy 13.97 2.54) (xy -11.43 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2Battery_Cell_1_1"
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 168.91 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "416b5c3a-529b-43d2-bab3-f2a5ebe36e88")
+	)
+	(wire
+		(pts
+			(xy 137.16 144.78) (xy 168.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3391ed-3c78-4e37-98bb-852a9020f2f6")
+	)
+	(wire
+		(pts
+			(xy 168.91 144.78) (xy 168.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81088562-84fd-4dc1-8be0-eec53fd76485")
+	)
+	(wire
+		(pts
+			(xy 133.35 140.97) (xy 137.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ca9eb2-6e0e-43d6-aacc-e481b6e5871f")
+	)
+	(wire
+		(pts
+			(xy 168.91 148.59) (xy 172.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0a5597-1b7f-4f19-89cd-54424d5844bd")
+	)
+	(wire
+		(pts
+			(xy 168.91 140.97) (xy 172.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88f7459-6c66-4d9c-9a92-8c41a188b7f5")
+	)
+	(wire
+		(pts
+			(xy 137.16 148.59) (xy 137.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2caabff-84d2-4db0-a31e-9c18804d17dd")
+	)
+	(hierarchical_label "High"
+		(shape input)
+		(at 133.35 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ea8f82a-edf0-4459-97a7-7f025260a642")
+	)
+	(hierarchical_label "Mid"
+		(shape input)
+		(at 172.72 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20141d46-5bc2-4e36-a0ce-b0a1a68183a3")
+	)
+	(hierarchical_label "Low"
+		(shape input)
+		(at 172.72 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b7b9daf-6a27-49c4-b6e7-454af86415da")
+	)
+	(symbol
+		(lib_id "b165:2Battery_Cell")
+		(at 152.4 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cceb12e-ef42-4414-95da-05a3dd404727")
+		(property "Reference" "U1"
+			(at 153.035 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2Battery_Cell"
+			(at 153.035 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "b165:2_18650_cell_holder"
+			(at 153.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411280017_MYOUNG-BH-18650-A1BJ021_C20606804.pdf"
+			(at 153.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C20606804"
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fca82ac3-0e7e-4d7c-9443-07884fa86044")
+		)
+		(pin "2"
+			(uuid "0f0f32e4-1d3f-4710-9748-7d4aec8b4ed1")
+		)
+		(pin "1"
+			(uuid "4fea17f5-3802-487f-a96a-0b910b2737a5")
+		)
+		(pin "3"
+			(uuid "4a9317cc-b2dc-4b2b-be38-21aca37a1a4f")
+		)
+		(instances
+			(project "board"
+				(path "/57732dd3-1162-4c3f-88bd-31bf473d124d/767ce4c6-0e55-4543-92f0-34cb8237a544"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
