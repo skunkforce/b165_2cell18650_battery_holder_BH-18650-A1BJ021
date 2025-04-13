@@ -1,4 +1,4 @@
-# edgy_board number b117
+# edgy_board number b165
 This design is part of the [edgy board project](https://github.com/skunkforce/edgy_boards).
 
 ![](/board/board.png)
